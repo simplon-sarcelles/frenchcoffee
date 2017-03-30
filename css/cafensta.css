@@ -1,0 +1,27 @@
+.sli{
+  background-color:;
+  height:71vh;
+  /*border: 4px solid;*/
+
+}
+.autre{
+  margin: auto;
+  /*background-color:rgba(89, 86, 86, 0.37);*/
+  height: 71vh;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.un{
+  margin-bottom: 2px
+}
+.un img{
+  height: 30vh;
+  border: 4px solid;
+
+}
+.texte{
+  text-align: center;
+}
