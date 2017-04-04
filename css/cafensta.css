@@ -13,7 +13,9 @@
     align-items: center;
     flex-direction: column;
 }
-
+.item active{
+  background-size: auto;
+}
 .un{
   margin-bottom: 2px
 }
