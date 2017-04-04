@@ -1,0 +1,32 @@
+.cols1{
+  height: 450px;
+}
+.cols2{
+  height: 400px;
+  background-color: #BDC3C7;
+}
+button.qty-change{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+}
+
+.qty-input{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+}
+.cols3{
+  height: 450px;
+  margin: 0;
+  padding: 0;
+}
+.cafe {position:relative;}
+.cafe .image,
+.cafe .text {transition: opacity 0.5s ease-in-out;}
+.cafe .text {position:absolute; top:0; left:0; opacity:0;}
+
+.cafe:hover .image {opacity:0;}
+.cafe:hover .text {opacity:1;}
