@@ -6,6 +6,10 @@ NavBar Override:
     text-shadow: #888888 1px 1px, #727272 -1px 1px, #888888 -1px -1px, #1e1e1e 1px -1px, 0 0 4px white, 0 -5px 4px #FFFF33, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px 18px #FF2200;
     font-size: x-large;
 }
+.navbar-brand:hover {
+    text-shadow: 0 0 4px white, 0 -5px 4px #ffae32, 2px -10px 6px #ff5a1b, -2px -15px 11px #ff2f00, 2px -25px 18px #FF2200;
+    font-size: x-large;
+}
 
 .navbar-inverse {
     background-color: #BDC3C7;
@@ -46,11 +50,12 @@ Footer
 .footer {
     background: #EDEFF1;
     height: auto;
-    padding-bottom: 100px;
     position: relative;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #DDDDDD;
+    padding: 0;
+    padding-bottom: 10px;
 }
 
 .footer p {
@@ -67,7 +72,6 @@ Footer
     font-size: 18px;
     font-weight: 600;
     line-height: 27px;
-    padding: 40px 0 10px;
     text-transform: uppercase;
 }
 
@@ -108,26 +112,17 @@ Footer
 
 .newsletter-box .btn {
     border: medium none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
-    border-radius: 3px;
-    display: inline-block;
-    height: 40px;
-    padding: 0;
-    width: 100%;
-    color: #fff;
+    margin-top: 5px;
+    width: 75%;
+    color: #434a54;
+    box-shadow: 0 1px 0 #B4B3B3;
+
 }
 
 .newsletter-box {
     overflow: hidden;
 }
 
-.bg-gray {
-    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
-    box-shadow: 0 1px 0 #B4B3B3;
-}
 
 .social li {
     background: none repeat scroll 0 0 #B5B5B5;
@@ -175,7 +170,7 @@ Footer
 }
 
 .footer-bottom {
-    background: #E3E3E3;
+    background:#BDC3C7;
     border-top: 1px solid #DDDDDD;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -192,8 +187,6 @@ Footer
 /**
 FOOTER
  */
-
-
 
 /**
 SMOKE
